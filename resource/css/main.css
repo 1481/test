@@ -19,13 +19,13 @@ div.spot {
     height: 100%;
     width: 100%;
 }
-div.spot > s1 {
+div.spot > #s1 {
     
 }
-div.spot > s2 {
+div.spot > #s2 {
     
 }
-div.spot > s3 {
+div.spot > #s3 {
     
 }
 div.main {
