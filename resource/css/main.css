@@ -44,32 +44,32 @@ div.spot > #s3 {
     0% {
         left: 70vw;
         top: 20vh;
-        opacity: 0.2;
+        opacity: 0.3;
     }
-    20% {
+    18% {
         left: 50vw;
         top: 30vh;
-        opacity: 0.16;
+        opacity: 0.22;
     }
-    40% {
+    42% {
         left: 30vw;
         top: 40vh;
         opacity: 0.18;
     }
-    60% {
+    52% {
         left: 20vw;
         top: 30vh;
         opacity: 0.15;
     }
-    80% {
+    79% {
         left: 60vw;
         top: 50vh;
-        opacity: 0.16;
+        opacity: 0.2;
     }
     100% {
         left: 70vw;
         top: 20vh;
-        opacity: 0.2;
+        opacity: 0.3;
     }
 }
 @keyframes spot2 {
@@ -78,12 +78,12 @@ div.spot > #s3 {
         top: 60vh;
         opacity: 0.16;
     }
-    20% {
+    21% {
         left: 40vw;
         top: 30vh;
         opacity: 0.12;
     }
-    40% {
+    39% {
         left: 20vw;
         top: 0vh;
         opacity: 0.18;
@@ -93,7 +93,7 @@ div.spot > #s3 {
         top: 60vh;
         opacity: 0.2;
     }
-    80% {
+    82% {
         left: 50vw;
         top: 40vh;
         opacity: 0.18;
@@ -110,22 +110,22 @@ div.spot > #s3 {
         top: 70vh;
         opacity: 0.2;
     }
-    20% {
+    16% {
         left: 50vw;
         top: 60vh;
-        opacity: 0.14;
+        opacity: 0.25;
     }
-    40% {
+    32% {
         left: 70vw;
         top: 50vh;
         opacity: 0.17;
     }
-    60% {
+    45% {
         left: 80vw;
         top: 70vh;
-        opacity: 0.16;
+        opacity: 0.22;
     }
-    80% {
+    75% {
         left: 50vw;
         top: 50vh;
         opacity: 0.18;
