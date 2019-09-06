@@ -19,14 +19,122 @@ div.spot {
     height: 100%;
     width: 100%;
 }
+div.spot > div {
+    position: absolute;
+    background-color: white;
+    opacity: 0.2;
+    border-radius: 50%;
+}
 div.spot > #s1 {
-    
+    height: 10vmin;
+    width: 10vmin;
+    animation: spot1 30s linear infinite;
 }
 div.spot > #s2 {
-    
+    height: 15vmin;
+    width: 15vmin;
+    animation: spot2 30s linear infinite;
 }
 div.spot > #s3 {
-    
+    height: 10vmin;
+    width: 10vmin;
+    animation: spot3 30s linear infinite;
+}
+@keyframes spot1 {
+    0% {
+        left: 70vw;
+        top: 20vh;
+        opacity: 0.2;
+    }
+    20% {
+        left: 50vw;
+        top: 30vh;
+        opacity: 0.16;
+    }
+    40% {
+        left: 30vw;
+        top: 40vh;
+        opacity: 0.18;
+    }
+    60% {
+        left: 20vw;
+        top: 30vh;
+        opacity: 0.15;
+    }
+    80% {
+        left: 60vw;
+        top: 50vh;
+        opacity: 0.16;
+    }
+    100% {
+        left: 70vw;
+        top: 20vh;
+        opacity: 0.2;
+    }
+}
+@keyframes spot2 {
+    0% {
+        left: 60vw;
+        top: 60vh;
+        opacity: 0.16;
+    }
+    20% {
+        left: 40vw;
+        top: 30vh;
+        opacity: 0.12;
+    }
+    40% {
+        left: 20vw;
+        top: 0vh;
+        opacity: 0.18;
+    }
+    60% {
+        left: 40vw;
+        top: 60vh;
+        opacity: 0.2;
+    }
+    80% {
+        left: 50vw;
+        top: 40vh;
+        opacity: 0.18;
+    }
+    100% {
+        left: 60vw;
+        top: 60vh;
+        opacity: 0.16;
+    }
+}
+@keyframes spot3 {
+    0% {
+        left: 30vw;
+        top: 70vh;
+        opacity: 0.2;
+    }
+    20% {
+        left: 50vw;
+        top: 60vh;
+        opacity: 0.14;
+    }
+    40% {
+        left: 70vw;
+        top: 50vh;
+        opacity: 0.17;
+    }
+    60% {
+        left: 80vw;
+        top: 70vh;
+        opacity: 0.16;
+    }
+    80% {
+        left: 50vw;
+        top: 50vh;
+        opacity: 0.18;
+    }
+    100% {
+        left: 30vw;
+        top: 70vh;
+        opacity: 0.2;
+    }
 }
 div.main {
     position: absolute;
