@@ -36,8 +36,8 @@ div.spot > #s2 {
     animation: spot2 40s linear infinite;
 }
 div.spot > #s3 {
-    height: 10vmin;
-    width: 10vmin;
+    height: 12vmin;
+    width: 12vmin;
     animation: spot3 50s linear infinite;
 }
 @keyframes spot1 {
