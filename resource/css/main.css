@@ -28,17 +28,17 @@ div.spot > div {
 div.spot > #s1 {
     height: 10vmin;
     width: 10vmin;
-    animation: spot1 30s linear infinite;
+    animation: spot1 60s linear infinite;
 }
 div.spot > #s2 {
     height: 15vmin;
     width: 15vmin;
-    animation: spot2 30s linear infinite;
+    animation: spot2 40s linear infinite;
 }
 div.spot > #s3 {
     height: 10vmin;
     width: 10vmin;
-    animation: spot3 30s linear infinite;
+    animation: spot3 50s linear infinite;
 }
 @keyframes spot1 {
     0% {
