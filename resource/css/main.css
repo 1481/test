@@ -8,7 +8,38 @@ html {
 }
 body {
     position: fixed;
+    z-index: -100;
     height: 100%;
     width: 100%;
     background-color: #1a73e8;
+}
+div.spot {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+div.spot > s1 {
+    
+}
+div.spot > s2 {
+    
+}
+div.spot > s3 {
+    
+}
+div.main {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 10vmin);
+    left: calc(50% - 10vmin);
+    height: 20vmin;
+    width: 20vmin;
+    text-align: center;
+    color: white;
+}
+div.main > h1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
