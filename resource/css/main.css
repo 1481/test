@@ -1,3 +1,14 @@
-.font {
+body, p, a, span, h1, h2, h3, button, div {
     font-family: Verdana, 'Microsoft JhengHei', 'PingFang', sans-serif !important;
+}
+html {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #1a73e8;
 }
