@@ -81,63 +81,77 @@ div.spot > #s3 {
     }
 }
 @keyframes spot2 {
-    /* d(2,3)+d(2,3)+d(2,6)+d(1,2)+d(1,2)=18.00779382626432 */
+    /* d(4,6)+d(2,6)+d(1,2)+d(1,2)=18.00779382626432 */
     0% {
         left: 60vw;
         top: 60vh;
-        opacity: 0.16;
+        opacity: 0;
     }
     20% {
-        left: 40vw;
-        top: 30vh;
-        opacity: 0.05;
+        opacity: 0.2;
     }
     40% {
         left: 20vw;
         top: 0vh;
-        opacity: 0.18;
+        opacity: 0;
+    }
+    57.6% {
+        opacity: 0.2;
     }
     75.2% {
         left: 40vw;
         top: 60vh;
         opacity: 0;
     }
+    81.4% {
+        opacity: 0.2;
+    }
     87.6% {
         left: 50vw;
         top: 40vh;
-        opacity: 0.1;
+        opacity: 0;
+    }
+    93.8% {
+        opacity: 0.2;
     }
     100% {
         left: 60vw;
         top: 60vh;
-        opacity: 0.16;
+        opacity: 0;
     }
 }
 @keyframes spot3 {
-    /* d(2,1)+d(2,1)+d(1,2)+d(3,2)+d(2,2)=13.142182332709549 */
+    /* d(4,2)+d(1,2)+d(3,2)+d(2,2)=13.142182332709549 */
     0% {
         left: 30vw;
         top: 70vh;
         opacity: 0;
     }
     17% {
-        left: 50vw;
-        top: 60vh;
-        opacity: 0.22;
+        opacity: 0.2;
     }
     34% {
         left: 70vw;
         top: 50vh;
-        opacity: 0.05;
+        opacity: 0;
+    }
+    42.5% {
+        opacity: 0.2;
     }
     51% {
         left: 80vw;
         top: 70vh;
-        opacity: 0.18;
+        opacity: 0;
+    }
+    64.75% {
+        opacity: 0.2;
     }
     78.5% {
         left: 50vw;
         top: 50vh;
+        opacity: 0;
+    }
+    89.25% {
         opacity: 0.2;
     }
     100% {
