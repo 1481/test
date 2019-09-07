@@ -153,4 +153,6 @@ div.main > h1 {
     position: relative;
     display: inline-block;
     text-align: center;
+    transform: rotate(-15deg);
+    text-shadow: 4px 5px #0d4da1;
 }
