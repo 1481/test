@@ -151,8 +151,11 @@ div.main {
 }
 div.main > h1 {
     position: relative;
+    left: -20px;
+    top: -50px;
+    min-width: 160px;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     transform: rotate(-15deg);
     text-shadow: 4px 5px #0d4da1;
 }
