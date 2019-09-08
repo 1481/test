@@ -208,8 +208,8 @@ div.spot > #s4 {
 div.main {
     position: absolute;
     z-index: 1;
-    top: calc(50vh - 160px);
-    left: calc(50vw - 160px);
+    top: calc(50vh - 80px);
+    left: calc(50vw - 80px);
     height: 160px;
     width: 160px;
     text-align: center;
