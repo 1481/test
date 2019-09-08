@@ -163,10 +163,10 @@ div.spot > #s3 {
 div.main {
     position: absolute;
     z-index: 1;
-    top: calc(50% - 10vmin);
-    left: calc(50% - 10vmin);
-    height: 20vmin;
-    width: 20vmin;
+    top: calc(50% - 160px);
+    left: calc(50% - 160px);
+    height: 160px;
+    width: 160px;
     text-align: center;
     color: white;
 }
@@ -174,7 +174,7 @@ div.main > h1 {
     position: relative;
     left: -20px;
     top: -50px;
-    min-width: 160px;
+    width: 160px;
     display: inline-block;
     text-align: left;
     transform: rotate(-15deg);
