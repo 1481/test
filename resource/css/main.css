@@ -208,8 +208,8 @@ div.spot > #s4 {
 div.main {
     position: absolute;
     z-index: 1;
-    top: calc(50vh - 80px);
-    left: calc(50vw - 80px);
+    top: calc(50% - 80px);
+    left: calc(50% - 80px);
     height: 160px;
     width: 160px;
     text-align: center;
@@ -217,7 +217,7 @@ div.main {
 }
 div.main > h1 {
     position: relative;
-    width: 160px;
+    left: 20px;
     display: inline-block;
     text-align: left;
     transform: rotate(-15deg);
