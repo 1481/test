@@ -223,3 +223,8 @@ div.main > h1 {
     transform: rotate(-15deg);
     text-shadow: 4px 5px #0d4da1;
 }
+@media screen and (min-width: 1000px) {
+    div.main > h1 {
+        font-size: 3rem;
+    }
+}
